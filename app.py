@@ -13,8 +13,8 @@ def get_user_input():
         "recipe": st.text_input("Recipe"),
         "for": st.text_input("For (number of persons)"),
         "spicy": st.text_input("Spicy (mild/medium/spicy)"),
-        "prep_time": st.text_input("Preparation Time"),
-        "cook_time": st.text_input("Cooking Time")
+        "prep_time": st.number_input("Preparation Time"),
+        "cook_time": st.number_input("Cooking Time")
     }
     return inputs 
 
