@@ -31,8 +31,8 @@ def main():
 
     if st.button("Generate Recipe"):
         # Configure API key for Google Generative AI
-        #api_key = st.secrets["AIzaSyCT2qloRABQ1s-du8UnBZZo0uFbjfn9Kek"]
-        api_key = "AIzaSyCT2qloRABQ1s-du8UnBZZo0uFbjfn9Kek"
+        #api_key = st.secrets["AIzaSyAXt7McrVxqaPyWIVgHUbZ8UucyHEpNPfc"]
+        api_key = "AIzaSyAXt7McrVxqaPyWIVgHUbZ8UucyHEpNPfc"
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel('gemini-pro')
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 # import streamlit as st
 
 def main():
-    api_key = st.secrets["general"]["AIzaSyCT2qloRABQ1s-du8UnBZZo0uFbjfn9Kek"]
+    api_key = st.secrets["general"]["AIzaSyAXt7McrVxqaPyWIVgHUbZ8UucyHEpNPfc"]
     st.write(f"API Key: {api_key}")
 
 
