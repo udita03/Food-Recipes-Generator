@@ -53,7 +53,7 @@ if __name__ == "__main__":
 # import streamlit as st
 
 def main():
-    api_key = st.secrets["general"]["AIzaSyDH1ug4SkcrQ5ewjmcyISIb48rwijlRjNA"]
+    api_key = st.secrets["general"]["Your_API_Key"]
     st.write(f"API Key: {api_key}")
 
 
