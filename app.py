@@ -31,8 +31,8 @@ def main():
 
     if st.button("Generate Recipe"):
         # Configure API key for Google Generative AI
-        #api_key = st.secrets["AIzaSyAXt7McrVxqaPyWIVgHUbZ8UucyHEpNPfc"]
-        api_key = "AIzaSyDH1ug4SkcrQ5ewjmcyISIb48rwijlRjNA"
+        #api_key = st.secrets["Your_API_Key"]
+        api_key = "Your_API_Key"
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel('gemini-pro')
 
